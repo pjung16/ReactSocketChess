@@ -4,7 +4,7 @@ import Chess from  "chess.js"; // import Chess from  "chess.js"(default) if reci
 import socketIOClient from "socket.io-client";
 import Chessboard from "chessboardjsx";
 
-const socket = socketIOClient("http://127.0.0.1:4001");
+const socket = socketIOClient("http://127.0.0.1:5000");
 
 class HumanVsHuman extends Component {
   static propTypes = { children: PropTypes.func };
@@ -21,7 +21,7 @@ class HumanVsHuman extends Component {
     square: "",
     // array of past game moves
     history: [],
-    endpoint: "http://127.0.0.1:4001",
+    endpoint: "http://127.0.0.1:5000",
     game: null
   };
 

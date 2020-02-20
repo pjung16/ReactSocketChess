@@ -3,7 +3,7 @@ const http = require("http");
 const socket = require("socket.io");
 const path = require('path');
 
-const port = process.env.PORT || 4001;
+const port = process.env.PORT || 5000;
 
 const app = express();
 
