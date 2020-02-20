@@ -1,1 +1,1 @@
-web sh -c 'npm run dev'
+web sh -c 'npm run server'
